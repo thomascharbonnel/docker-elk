@@ -8,4 +8,4 @@ filebeat.prospectors:
       - /var/log/nginx/error.log
     document_type: nginx-error
 output.logstash:
-  hosts: ["elk:5044"]
+  hosts: ["logstash:5000"]
